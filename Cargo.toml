@@ -1,0 +1,15 @@
+[package]
+name = "anthropic-tokenizer"
+version = "0.1.0"
+edition = "2024"
+description = "Fast Claude tokenizer with Python bindings"
+license = "MIT"
+
+[lib]
+name = "anthropic_tokenizer"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.23", features = ["extension-module"] }
+tokenizers = { version = "0.21", default-features = false, features = ["fancy-regex"] }
+once_cell = "1"
