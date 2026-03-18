@@ -1,5 +1,8 @@
 # anthropic-tokenizer
 
+[![PyPI version](https://img.shields.io/pypi/v/anthropic-tokenizer?color=green)](https://pypi.org/project/anthropic-tokenizer/)
+[![CI](https://github.com/Oaklight/anthropic-tokenizer/actions/workflows/CI.yml/badge.svg)](https://github.com/Oaklight/anthropic-tokenizer/actions/workflows/CI.yml)
+
 快速、离线的 Claude 分词器，带 Python 绑定。Rust 编写，PyO3 桥接。
 
 [English](README_en.md)

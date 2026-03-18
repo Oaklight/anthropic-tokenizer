@@ -1,5 +1,8 @@
 # anthropic-tokenizer
 
+[![PyPI version](https://img.shields.io/pypi/v/anthropic-tokenizer?color=green)](https://pypi.org/project/anthropic-tokenizer/)
+[![CI](https://github.com/Oaklight/anthropic-tokenizer/actions/workflows/CI.yml/badge.svg)](https://github.com/Oaklight/anthropic-tokenizer/actions/workflows/CI.yml)
+
 A fast, offline Claude tokenizer with Python bindings. Built in Rust with PyO3.
 
 [中文文档](README_zh.md)
