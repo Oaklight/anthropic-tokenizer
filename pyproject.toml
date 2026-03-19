@@ -6,7 +6,7 @@ build-backend = "maturin"
 name = "anthropic-tokenizer"
 version = "0.1.0"
 description = "Fast local Claude tokenizer (Rust + PyO3). Falls back from Anthropic count_tokens API to embedded BPE tokenizer."
-requires-python = ">=3.8"
+requires-python = ">=3.8,<3.14"
 license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Rust",
